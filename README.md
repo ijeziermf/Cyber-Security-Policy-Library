@@ -74,6 +74,10 @@ A walkthrough video providing an overview of the policy structure, alignment, an
 
 *(Video coming soon)*
 
+
+https://github.com/user-attachments/assets/642dcfee-120b-4e33-bc4c-76832a344196
+
+
 ---
 
 ## License
