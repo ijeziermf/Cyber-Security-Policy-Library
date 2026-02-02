@@ -8,6 +8,13 @@ Rather than focusing on technical procedures, these policies emphasize accountab
 
 ---
 
+## Video Walkthrough
+
+A walkthrough video providing an overview of the policy structure, alignment, and intended use.
+
+Watch it here: https://www.loom.com/share/572e944a8d894cfea144bac579f27eb6
+
+---
 ## Technologies & Frameworks Used
 
 - Microsoft Word (policy drafting and formatting)
@@ -65,18 +72,6 @@ The collection reflects a governance-first approach to cybersecurity, positionin
 ## Growth & Next Improvements
 
 Future iterations of this policy set could include mapping requirements to specific organizational procedures, integration with GRC platforms, or expansion into additional policy areas such as data classification, cloud security, or business continuity. These enhancements would support scaling the framework for larger or more regulated environments.
-
----
-
-## Video Walkthrough
-
-A walkthrough video providing an overview of the policy structure, alignment, and intended use is planned and will be added to this repository.
-
-*(Video coming soon)*
-
-
-https://github.com/user-attachments/assets/642dcfee-120b-4e33-bc4c-76832a344196
-
 
 ---
 
