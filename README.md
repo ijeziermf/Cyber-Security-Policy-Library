@@ -1,80 +1,201 @@
-# NIST-Aligned Cybersecurity Policy Library
+# Cyber-Security Policy Library
+
+> **NIST-aligned cybersecurity policy templates — governance-focused, audit-defensible, organization-ready.**
+
+---
+
+## What This Demonstrates
+
+| Capability | Details |
+|---|---|
+| **Framework Alignment** | NIST Cybersecurity Framework, NIST SP 800-53, ISO/IEC 27001 |
+| **Methodology** | Governance-first policy design, plain-language requirements |
+| **Deliverables** | Policy templates, framework mappings, implementation guidance |
+| **Stakeholder Focus** | Executive accountability, audit readiness, operational clarity |
+| **Industry Relevance** | SMB to enterprise, regulated industries, compliance-driven orgs |
+
+---
 
 ## Overview
 
-This repository contains a curated set of professionally written cybersecurity policy templates designed to support governance, risk management, and audit readiness. The policies are aligned to the NIST Cybersecurity Framework and NIST SP 800-53 and are intended to translate cyber risk concepts into clear, actionable governance requirements that organizations can realistically implement.
+This repository contains a curated set of **professionally written cybersecurity policy templates** designed to support governance, risk management, and audit readiness. The policies are aligned to the **NIST Cybersecurity Framework** and **NIST SP 800-53** and translate cyber risk concepts into **clear, actionable governance requirements** that organizations can realistically implement.
 
-Rather than focusing on technical procedures, these policies emphasize accountability, consistency, and decision-making at the organizational level. Together, they form a foundational security governance framework suitable for small to mid-size organizations or teams seeking to mature their cybersecurity posture.
-
----
-
-## Video Walkthrough
-
-A walkthrough video providing an overview of the policy structure, alignment, and intended use.
-
-Watch it here: https://www.loom.com/share/572e944a8d894cfea144bac579f27eb6
-
----
-## Technologies & Frameworks Used
-
-- Microsoft Word (policy drafting and formatting)
-- NIST Cybersecurity Framework (CSF)
-- NIST SP 800-53
-- ISO/IEC 27001 (reference alignment)
-- Governance-focused policy design methodology
+Rather than focusing on technical procedures, these policies emphasize **accountability**, **consistency**, and **decision-making** at the organizational level. Together, they form a foundational security governance framework suitable for small to mid-size organizations or teams seeking to mature their cybersecurity posture.
 
 ---
 
-## Policy Deliverables
+## Policy Templates
 
-This repository includes the following policy templates:
-
-- **Access Control & Privileged Access Policy**  
-  Governance requirements for managing user and privileged access based on least privilege and business need.
-
-- **Incident Response & Security Incident Reporting Policy**  
-  Governance requirements for identifying, escalating, and managing security incidents.
-
-- **Third-Party Information Security Policy**  
-  Risk-based governance for managing cybersecurity risks introduced by vendors and external partners.
-
-- **Security Awareness & Acceptable Use Policy**  
-  Governance requirements for responsible system use and security awareness across the organization.
-
-Each policy is written to be clear, consistent, and adaptable without reliance on proprietary tools or platforms.
+| Policy | Purpose | Key Requirements |
+|---|---|---|
+| **Access Control & Privileged Access** | Govern user and privileged access based on least privilege | Least privilege, business need, periodic review |
+| **Incident Response & Reporting** | Govern identification, escalation, and management of security incidents | Incident classification, escalation paths, post-incident review |
+| **Third-Party Information Security** | Govern cybersecurity risks introduced by vendors and partners | Vendor risk assessments, contract clauses, monitoring |
+| **Security Awareness & Acceptable Use** | Govern responsible system use and security awareness | Training requirements, acceptable use rules, enforcement |
 
 ---
 
-## Notes for Reviewers
+## Key Features
 
-These policies intentionally prioritize clarity and business relevance over technical depth. Plain language is used to ensure accessibility for executive and non-technical stakeholders, while formal structure and framework alignment are maintained to support audit defensibility and governance maturity.
+- ✅ **Plain Language** — Accessible to executive and non-technical stakeholders
+- ✅ **Framework-Aligned** — NIST CSF, NIST SP 800-53, ISO 27001 references
+- ✅ **Governance-Focused** — Accountability and decision-making, not just procedures
+- ✅ **Audit-Defensible** — Formal structure with control mappings
+- ✅ **Adaptable** — Templates designed for organizational customization
+- ✅ **Living Documents** — Review cycles and update mechanisms built in
 
-The documents are designed as **policy-level artifacts**, not procedures or runbooks. Organizations adopting these templates are expected to supplement them with standards, procedures, and technical controls appropriate to their environment.
+---
+
+## Policy Structure (All Templates)
+
+```
+1. Purpose
+   └─→ Why this policy exists, business objectives
+
+2. Scope
+   └─→ Who and what is covered, exclusions
+
+3. Policy Statements
+   └─→ Governance requirements (what must be done)
+
+4. Roles & Responsibilities
+   └─→ Accountability, ownership, enforcement
+
+5. Compliance & Enforcement
+   └─→ Violations, exceptions, audit requirements
+
+6. Review & Updates
+   └─→ Review cycle, change management
+
+7. Framework Mappings
+   └─→ NIST CSF, NIST 800-53, ISO 27001 crosswalk
+```
+
+---
+
+## Framework Alignment
+
+### NIST Cybersecurity Framework (CSF)
+
+| Policy | CSF Function(s) |
+|---|---|
+| Access Control | Protect (PR.AC) |
+| Incident Response | Respond (RS.RP, RS.AN, RS.MI) |
+| Third-Party Security | Protect (PR.TP), Identify (ID.SC) |
+| Security Awareness | Protect (PR.AT), Identify (ID.GV) |
+
+### NIST SP 800-53 Rev. 5
+
+| Policy | Control Families |
+|---|---|
+| Access Control | AC (Access Control), IA (Identification & Authentication) |
+| Incident Response | IR (Incident Response), SI (System & Information Integrity) |
+| Third-Party Security | SA (System & Services Acquisition), PM (Program Management) |
+| Security Awareness | AT (Awareness & Training), PL (Planning) |
+
+### ISO/IEC 27001
+
+| Policy | ISO Clauses |
+|---|---|
+| Access Control | A.9 (Access Control) |
+| Incident Response | A.16 (Information Security Incident Management) |
+| Third-Party Security | A.15 (Supplier Relationships) |
+| Security Awareness | A.7 (Human Resource Security), A.8 (Asset Management) |
 
 ---
 
 ## How to Use These Policies
 
-These policies are intended to serve as reusable templates that organizations can adapt to their specific size, industry, and regulatory environment. Before adoption, organizations should review each policy to understand its scope and intent, then tailor references such as roles, approval authorities, review cycles, and enforcement mechanisms to reflect internal governance structures.
+### Step 1: Review & Understand
 
-Once customized, policies should be formally approved, communicated to relevant stakeholders, and incorporated into ongoing risk management, training, and compliance activities. These documents are designed to function as **living artifacts** and should be reviewed and updated periodically as business operations, technology environments, and threat conditions evolve.
+Read each policy to understand its **scope**, **intent**, and **governance requirements**. Note framework mappings for audit alignment.
+
+### Step 2: Tailor to Your Organization
+
+Customize references such as:
+- Roles and approval authorities
+- Review cycles and frequencies
+- Enforcement mechanisms
+- Tool and platform names
+
+### Step 3: Formal Approval
+
+Route policies through:
+- Legal/Compliance review
+- Executive sponsorship
+- Formal approval and sign-off
+
+### Step 4: Communicate & Implement
+
+- Distribute to relevant stakeholders
+- Incorporate into training programs
+- Link to procedures and standards
+
+### Step 5: Maintain & Update
+
+- Schedule periodic reviews (annual or as needed)
+- Track changes and version history
+- Update based on business/technology changes
 
 ---
 
-## Value to Cyber Risk Management
+## Notes for Reviewers
 
-This policy library demonstrates how cybersecurity governance can be formalized in a way that supports risk reduction, accountability, and informed decision-making. When used together, these policies establish a cohesive framework for managing internal access risk, third-party exposure, incident response readiness, and human-driven security risk.
+These policies intentionally prioritize **clarity and business relevance** over technical depth. Plain language is used to ensure accessibility for executive and non-technical stakeholders, while formal structure and framework alignment are maintained to support **audit defensibility** and **governance maturity**.
 
-The collection reflects a governance-first approach to cybersecurity, positioning policy as a foundational control rather than a compliance afterthought.
+The documents are designed as **policy-level artifacts**, not procedures or runbooks. Organizations adopting these templates are expected to supplement them with **standards**, **procedures**, and **technical controls** appropriate to their environment.
 
 ---
 
-## Growth & Next Improvements
+## Value to GRC Consulting
 
-Future iterations of this policy set could include mapping requirements to specific organizational procedures, integration with GRC platforms, or expansion into additional policy areas such as data classification, cloud security, or business continuity. These enhancements would support scaling the framework for larger or more regulated environments.
+This policy library demonstrates **client-ready deliverables** for:
+
+| Service | Application |
+|---|---|
+| **Policy Development** | Full policy suite, framework alignment, customization |
+| **Audit Readiness** | Control mappings, governance documentation, review cycles |
+| **Governance Maturity** | Accountability structures, enforcement mechanisms |
+| **Compliance Programs** | NIST, ISO, SOC 2, HIPAA, PCI-DSS alignment |
+
+---
+
+## Tools & Frameworks
+
+| Tool/Framework | Use |
+|---|---|
+| **Microsoft Word** | Policy drafting and formatting |
+| **NIST Cybersecurity Framework** | Function alignment |
+| **NIST SP 800-53** | Control family mapping |
+| **ISO/IEC 27001** | Reference alignment |
+
+---
+
+## Key Takeaways
+
+1. **Policy = Governance Foundation** — Not compliance afterthought
+2. **Clarity Drives Adoption** — Executives and employees follow what they understand
+3. **Framework Alignment Enables Audit** — NIST/ISO mappings support compliance
+4. **Living Documents** — Policies must evolve with business and threat changes
+
+---
+
+## Growth & Next Iterations
+
+Future enhancements:
+- Mapping to specific organizational procedures
+- Integration with GRC platforms for policy management
+- Expansion into additional policy areas (data classification, cloud security, business continuity)
+- Scaling framework for larger or more regulated environments
+
+---
+
+## Video Walkthrough
+
+https://www.loom.com/share/572e944a8d894cfea144bac579f27eb6
 
 ---
 
 ## License
 
-This project is licensed under the Creative Commons Attribution 4.0 International License.
+This project is licensed under the **Creative Commons Attribution 4.0 International License**. Organizations may adapt and use these templates for internal or commercial purposes with attribution.
