@@ -1,6 +1,6 @@
 # Cyber-Security Policy Library
 
-> **NIST-aligned cybersecurity policy templates — governance-focused, audit-defensible, organization-ready.**
+> **NIST-aligned cybersecurity policy templates, governance-focused, audit-defensible, organization-ready.**
 
 ---
 
@@ -37,12 +37,12 @@ Rather than focusing on technical procedures, these policies emphasize **account
 
 ## Key Features
 
-- ✅ **Plain Language** — Accessible to executive and non-technical stakeholders
-- ✅ **Framework-Aligned** — NIST CSF, NIST SP 800-53, ISO 27001 references
-- ✅ **Governance-Focused** — Accountability and decision-making, not just procedures
-- ✅ **Audit-Defensible** — Formal structure with control mappings
-- ✅ **Adaptable** — Templates designed for organizational customization
-- ✅ **Living Documents** — Review cycles and update mechanisms built in
+- ✅ **Plain Language**, Accessible to executive and non-technical stakeholders
+- ✅ **Framework-Aligned**, NIST CSF, NIST SP 800-53, ISO 27001 references
+- ✅ **Governance-Focused**, Accountability and decision-making, not just procedures
+- ✅ **Audit-Defensible**, Formal structure with control mappings
+- ✅ **Adaptable**, Templates designed for organizational customization
+- ✅ **Living Documents**, Review cycles and update mechanisms built in
 
 ---
 
@@ -173,10 +173,10 @@ This policy library demonstrates **client-ready deliverables** for:
 
 ## Key Takeaways
 
-1. **Policy = Governance Foundation** — Not compliance afterthought
-2. **Clarity Drives Adoption** — Executives and employees follow what they understand
-3. **Framework Alignment Enables Audit** — NIST/ISO mappings support compliance
-4. **Living Documents** — Policies must evolve with business and threat changes
+1. **Policy = Governance Foundation**, Not compliance afterthought
+2. **Clarity Drives Adoption**, Executives and employees follow what they understand
+3. **Framework Alignment Enables Audit**, NIST/ISO mappings support compliance
+4. **Living Documents**, Policies must evolve with business and threat changes
 
 ---
 
